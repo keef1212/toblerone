@@ -18,8 +18,10 @@ const keyFile = "key.txt"
 func main() {
 	if len(os.Args) < 2 {
 		fmt.Println("  keygen              gen a new encryption key")
-		fmt.Println("  encrypt <inputFile> <outputFile> <encryptionKey>   encrypt a file")
-		fmt.Println("  decrypt <inputFile> <outputFile> <encryptionKey>   decrypt a file")
+		fmt.Println("  encrypt <input-file> <output-file> <encryption-key>   encrypt a file")
+		fmt.Println("  decrypt <input-file> <output-file> <sender-decryption-key>   decrypt a file")
+		fmt.Println("Your sender-decryption-key should be the text string sent along with the file")
+		fmt.Println("sender-decryption-key is essentially the senders encryption key")
 		return
 	}
 
