@@ -5,6 +5,7 @@ keygen<br>
 encrypt<br>
 decrypt<br>
 none of that pgp and age nonsense, just nice and easy for you simpletons
+<br>
 ## Install
 you really should know by now<br>
 [click](https://github.com/keef1212/toblerone/releases/download/v1.0.0/toblerone.sh) that to install<br>
