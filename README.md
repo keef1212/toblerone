@@ -12,5 +12,13 @@ you really should know by now<br>
 then, in order, run these lines of code where you just installed that:<br>
 ````
 chmod +x toblerone.sh
-./toblerone
+./toblerone.sh
 ````
+## Usage
+```
+keygen              gen a new encryption key
+encrypt <input-file> <output-file> <encryption-key>   encrypt a file
+decrypt <input-file> <output-file> <sender-decryption-key>   decrypt a file
+Your sender-decryption-key should be the text string sent along with the file
+sender-decryption-key is essentially the senders encryption key
+```
