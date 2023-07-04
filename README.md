@@ -11,10 +11,17 @@ chmod +x toblerone.sh
 ### Compile from source (Windows)
 ```
 git clone https://github.com/keef1212/toblerone.git
+cd toblerone
 go build toblerone.go
-chmod +x toblerone (unix only)
-Unix (most): mv toblerone /usr/local/bin (or any other directory in your path)
-Windows: mv toblerone C:\Windows\System32
+chmod +x toblerone
+mv toblerone /usr/local/bin
+```
+#### Compile from source (Unix)
+```
+git clone https://github.com/keef1212/toblerone.git
+cd toblerone
+go build toblerone.go
+mv toblerone C:\Windows\System32
 ```
 ## Usage
 ```
