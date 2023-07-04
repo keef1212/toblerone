@@ -8,7 +8,8 @@ then, in order, run these lines of code where you just installed that:<br>
 chmod +x toblerone.sh
 ./toblerone.sh
 ````
-### Compile from source (Windows)
+### Compile from source
+#### Unix based systems
 ```
 git clone https://github.com/keef1212/toblerone.git
 cd toblerone
@@ -16,7 +17,7 @@ go build toblerone.go
 chmod +x toblerone
 mv toblerone /usr/local/bin
 ```
-#### Compile from source (Unix)
+#### Windows
 ```
 git clone https://github.com/keef1212/toblerone.git
 cd toblerone
