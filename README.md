@@ -17,8 +17,8 @@ chmod +x toblerone.sh
 ## Usage
 ```
 keygen              gen a new encryption key
-encrypt <input-file> <output-file> <encryption-key>   encrypt a file
-decrypt <input-file> <output-file> <sender-decryption-key>   decrypt a file
+encrypt <input-file.txt> <output-file.tobl> <encryption-key>   encrypt a file
+decrypt <input-file.tobl> <output-file.txt> <sender-decryption-key>   decrypt a file
 Your sender-decryption-key should be the text string sent along with the file
 sender-decryption-key is essentially the senders encryption key
 ```
