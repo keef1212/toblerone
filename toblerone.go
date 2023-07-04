@@ -23,8 +23,8 @@ func main() {
 	if len(os.Args) < 2 {
 		fmt.Println("Usage: toblerone <command> [args]")
 		fmt.Println("  keygen              generate a new encryption key")
-		fmt.Println("  encrypt <inputFile.txt> <outputFile.tobl> <encryptionKey>   Encrypt a file")
-		fmt.Println("  decrypt <inputFile.tobl> <outputFile.txt> <senderDecryptionKey>   Decrypt a file")
+		fmt.Println("  encrypt <inputFile.txt> <outputFile> <encryptionKey>   Encrypt a file")
+		fmt.Println("  decrypt <inputFile> <outputFile.txt> <senderDecryptionKey>   Decrypt a file")
 		return
 	}
 
