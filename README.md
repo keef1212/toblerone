@@ -1,5 +1,6 @@
 # Toblerone
 an on-the-fly encryption program written in Go<br>
+
 ## Install
 [click](https://github.com/keef1212/toblerone/releases/download/v1.0.0/toblerone.sh) that to install<br>
 then, in order, run these lines of code where you just installed that:<br>
@@ -7,6 +8,13 @@ then, in order, run these lines of code where you just installed that:<br>
 chmod +x toblerone.sh
 ./toblerone.sh
 ````
+### Compile from source
+```
+git clone https://github.com/keef1212/toblerone.git
+go build toblerone.go
+chmod +x toblerone
+mv toblerone /usr/local/bin (or any other directory in your path)
+```
 ## Usage
 ```
 keygen              generate a new encryption key
